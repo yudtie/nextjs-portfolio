@@ -4,6 +4,9 @@ import CardSN from "./CardSN";
 import CardZBS from "./CardZBS";
 import CardEARL from "./CardEARL";
 import CardGLOBALCON from "./CardGLOBALCON";
+import CardHRCORP from "./CardHRCORP";
+import CardRPM from "./CardRPM";
+import CardNYY from "./CardNYY";
 
 type Props = {}
 
@@ -21,9 +24,9 @@ export default function Work({}: Props) {
             <CardGLOBALCON />
         </div>
         <div className="flex flex-col flex-shrink-0 md:flex-row md:w-fit">
-            <CardAWE />
-            <CardAWE />
-            <CardAWE />
+            <CardHRCORP />
+            <CardRPM />
+            <CardNYY />
         </div>
         
     </div>
