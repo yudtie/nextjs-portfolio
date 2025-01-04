@@ -23,7 +23,7 @@ export default function CardZBS({}: Props) {
                 y:0,
                 opacity: 1,
             }}>
-                <div className="workitem"> <a href="#"><img src="/zbs-hero.jpg" alt="zbs Brand" /><span>View Project</span></a></div>
+                <div className="workitem"> <a href="#"><img src="/ZBS-hero.jpg" alt="zbs Brand" /><span>View Project</span></a></div>
 
 
         </motion.div>
