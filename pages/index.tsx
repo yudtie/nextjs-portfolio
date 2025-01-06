@@ -9,8 +9,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Home: NextPage = () => {
-  
-  
+   
   return (
     <div className="text-lg md:text-lg xl:text-xl">
       <Head>
@@ -18,11 +17,6 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-
-      {/* Hero */}
-      {/* <section id = "hero">
-        <Hero />
-      </section> */}
 
       <section id = "about">
         <About />
